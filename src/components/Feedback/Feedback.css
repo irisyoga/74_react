@@ -1,0 +1,33 @@
+
+.feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  padding: 20px;
+  border-radius: 14px;
+  background: #dcd1d1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+.feedback {
+  display: flex;
+  gap: 20px;
+}
+.feedback-item {
+  display: flex;
+  flex-direction: column; /* значение под кнопкой */
+  align-items: center;
+  gap: 6px;
+}
+.feedback-item button {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 22px;
+  cursor: pointer;
+}
+.feedback-item span {
+  font-size: 18px;
+  font-weight: 600;
+}
